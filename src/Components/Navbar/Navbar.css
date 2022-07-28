@@ -13,37 +13,6 @@ li{
   list-style: none;
 }
 
-.mail-symbol{
-    height: 30px;
-    width: 50px;
-}
-.notify-symbol{
-    height: 30px;
-    width: 50px;
-}
-.user-symbol{
-    height: 30px;
-    width: 50px;
-}
-.adobe-symbol{
-    height: 30px;
-    width: 90px;
-}
-.search-bar{
-    height: 30px;
-    width: 300px;
-    border-radius: 30%;
-}
-
-.share-your-work{
-    font-size: 18px;
-    background-color: white;
-    border-radius: 25%;
-    padding: 4px 4px;
-    cursor: pointer;
-    box-sizing: border-box;
-}
-
 .navbar {
   display: flex;
   align-items: center;
@@ -57,13 +26,13 @@ li{
 }
 /* LOGO */
 .logo {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 /* NAVBAR MENU */
 .menu {
   display: flex;
-  gap: 1em;
+  gap: 5px;
   font-size: 18px;
 }
 .menu li:hover {
@@ -113,6 +82,54 @@ input[type="checkbox"] {
 }
 
 
+
+.mail-symbol{
+  height: 30px;
+  width: 50px;
+}
+.notify-symbol{
+  height: 30px;
+  width: 50px;
+}
+.user-symbol{
+  height: 30px;
+  width: 50px;
+}
+.adobe-symbol{
+  height: 30px;
+  width: 90px;
+}
+.search-bar{
+  height: 30px;
+  width: 300px;
+  border-radius: 25px;
+}
+
+
+.nav-part-one{
+  display: flex;
+  padding-right: 100px;
+}
+
+.search-bar-input{
+  display: flex;
+  padding-right: 100px;
+  border-radius: 25px;
+}
+
+
+.share-your-work{
+  font-size: 18px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 4px 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+
+
+
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
   .menu {
@@ -121,6 +138,16 @@ input[type="checkbox"] {
     background-color: rgb(255, 255, 255);
     right: 0;
     left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .nav-part-one{
+    display: block;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .search-bar-input{
+    display: block;
     text-align: center;
     padding: 16px 0;
   }
