@@ -4,44 +4,56 @@ import "../Navbar/Navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar">
+      <nav className="behance-navbar">
         {/*  LOGO  */}
-        <div class="logo"><h3>Behance</h3></div>
+        <div class="logo">
+        <a>
+          <h3>Behance</h3>
+          </a>
+        </div>
         {/* NAVIGATION MENU */}
-        <ul class="nav-links">
+        <ul className="nav-links">
           {/* <!-- USING CHECKBOX HACK --> */}
           <input type="checkbox" id="checkbox_toggle" />
           <label for="checkbox_toggle" class="hamburger">
             &#9776;
           </label>
           {/* <!-- NAVIGATION MENUS --> */}
-          <div class="menu">
+          <div className="menu">
             <div className="nav-part-one">
               <li>
-                <a href="/"><h3>For You</h3></a>
+                <a href="/">
+                  <h3>For You</h3>
+                </a>
               </li>
               <li>
-                <a href="/"><h3>Discover</h3></a>
+                <a href="/">
+                  <h3>Discover</h3>
+                </a>
               </li>
               <li>
-                <a href="/"><h3>Livestreams</h3></a>
+                <a href="/">
+                  <h3>Livestreams</h3>
+                </a>
               </li>
               <li>
-                <a href="/"><h3>Jobs</h3></a>
+                <a href="/">
+                  <h3>Jobs</h3>
+                </a>
               </li>
             </div>
             <div className="search-bar-input">
-            <input
-              className="search-bar"
-              type="text"
-              placeholder="Search.."
-            ></input>
+              <input
+                className="search-bar"
+                type="text"
+                placeholder="Search.."
+              ></input>
             </div>
-            <li class="services">
+            <li className="services">
               <button className="share-your-work">Share Your Work</button>
               {/* <a href="/">Share Your Work</a> */}
               {/* <!-- DROPDOWN MENU --> */}
-              <ul class="dropdown">
+              <ul className="dropdown">
                 <li>
                   <a href="/">Projetc</a>
                 </li>

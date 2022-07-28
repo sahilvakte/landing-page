@@ -2,18 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  list-style: none;
+  text-decoration: none;
 }
 body {
   font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-a{
+/* a{
   text-decoration: none;
-}
-li{
+  cursor: pointer;
+} */
+/* li{
   list-style: none;
-}
+} */
 
-.navbar {
+.behance-navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,6 +31,7 @@ li{
 /* LOGO */
 .logo {
   font-size: 20px;
+  margin-top: -10px;
 }
 
 /* NAVBAR MENU */
