@@ -8,7 +8,7 @@ const Navbar = () => {
         {/*  LOGO  */}
         <div class="logo">
         <a>
-          <h3>Behance</h3>
+          <h3>Bēhance</h3>
           </a>
         </div>
         {/* NAVIGATION MENU */}
