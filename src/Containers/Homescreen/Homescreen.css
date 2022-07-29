@@ -1,8 +1,12 @@
 .ebeauty-grid-container{
-    display: grid;
+  display: grid;
   grid-template-columns: auto auto auto;
   background-color: white;
   padding: 50px;
+}
+
+.tagline-of-ebeauty{
+    text-align: start;
 }
 
 .ebeauty-grid-item{
@@ -10,6 +14,10 @@
   padding-left: 150px;
   font-size: 40px;
   /* text-align: center; */
+}
+
+.ebeauty-grid-item-button{
+    display: table;
 }
 
 .ebeauty-grid-product{
@@ -157,9 +165,11 @@
     width: 250px;
     padding: 0%;
     margin: 0%;
+    margin-bottom: -130px;
+    margin-top: -140px;
 }
 .rate{
-    display: block;
+    display: inline-block;
     padding: 0%;
     margin: 0%;
     float:none

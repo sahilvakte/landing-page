@@ -6,7 +6,7 @@ const Homescreen = () => {
     <div>
       <div className="ebeauty-grid-container">
         <div className="ebeauty-grid-item">
-          <h2>
+          <h2 className="tagline-of-ebeauty">
             Reveal Your
             <br /> Natural Beauty
             <br /> Scene

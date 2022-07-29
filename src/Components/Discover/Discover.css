@@ -1,0 +1,106 @@
+.discover-black-container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    margin-top: -30px;
+    /* height: 220px;
+    padding-top: 6px; */
+}
+
+.discover-first-images{
+    width: 33.33%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 120px;
+}
+.discover-first-images-logo{
+    height: 150px;
+    width: 500px;
+}
+
+.discover-blackbox-text{
+    width: 33.33%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.discover-second-images{
+    width: 33.33%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+
+.discover-second-images-logo{
+    height: 150px;
+    width: 500px;
+    margin-left: -75px;
+
+    /* padding-right: 180px; */
+    
+
+}
+
+.discover-blackbox-text-first-block{
+    font-size: 20px;
+}
+
+.discover-blackbox-text-second-block{
+    font-size: 40px;
+}
+
+@media (max-width: 768px){
+.discover-black-container{
+    display: flex;
+    margin-top: 10px;
+    height: 62px;
+    padding-top: 6px;
+}
+.discover-first-images{
+    width: 33.33%;
+    padding: 0%;
+    margin: 0%;
+    /* padding-top: 1px;
+    padding-bottom: 1px; */
+}
+.discover-blackbox-text{
+    width: 33.33%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0%;
+    /* border: none; */
+}
+.discover-second-images{
+    width: 33.33%;
+    padding: 0%;
+    margin: 0%;
+    /* padding-left:-30px; */
+    /* padding-top: 1px; */
+    /* padding-bottom: 1px; */
+}
+.discover-first-images-logo{
+    height: 50px;
+    width: 80px;
+    padding: 0%;
+    margin: 0%;
+    padding-left: 10px;
+}
+.discover-second-images-logo{
+    height: 50px;
+    width: 70px;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 10px;
+}
+.discover-blackbox-text-first-block{
+    font-size: 8px;
+}
+.discover-blackbox-text-second-block{
+    font-size: 10px;
+}
+}
