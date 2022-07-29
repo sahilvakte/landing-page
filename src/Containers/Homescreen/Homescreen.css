@@ -1,0 +1,167 @@
+.ebeauty-grid-container{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 50px;
+}
+
+.ebeauty-grid-item{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-left: 150px;
+  font-size: 40px;
+  /* text-align: center; */
+}
+
+.ebeauty-grid-product{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.get-started-button{
+    background-color: orangered;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.learn-more-button{
+    background-color: white;
+    font-size: 17px;
+    padding: 20px;
+    color: black;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.ebeauty-grid-product-image-one{
+    height: 300px;
+    width: 500px;
+    /* fill: aqua; */
+}
+.ebeauty-grid-product{
+    background-color: rgb(228, 255, 255);
+    border-radius: 25px;
+}
+
+.product-add-at-homepage{
+    display: flex;
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
+
+.product-add-at-homepage-image{
+    height: 100px;
+    width: 50px;
+
+}
+
+.product-add-at-homepage-one{
+    display: flex;
+    background-color: rgb(228, 255, 255);
+    border-radius: 25px;
+    padding: 20px;
+}
+.product-add-at-homepage-two{
+    display: flex;
+    margin-left: 10px;
+    background-color: rgb(228, 255, 255);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.product-add-at-homepage-price{
+    color: orangered;
+}
+
+.rate {
+    float: left;
+    padding-left: 240px;
+    padding-top: 25px;
+    /* height: 46px; */
+    /* padding: 0 10px; */
+    /* padding-top: 50px; */
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.reviews-tagline{
+    color: orangered;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+.ebeauty-grid-container{
+    display: block;
+    padding: 10px;
+}
+.ebeauty-grid-item{
+    display: block;
+    font-size: 20px;
+    padding: 5%;
+}
+.ebeauty-grid-item-button{
+    display: flex;
+}
+.get-started-button{
+    font-size: 15px;
+    width: 180px;
+    padding: 10px;
+}
+.learn-more-button{
+    font-size: 15px;
+    width: 180px;
+    padding: 10px;
+    /* margin-top: 5px; */
+    margin-left: 2px;
+}
+.product-add-at-homepage{
+    display: block;
+}
+.product-add-at-homepage-two{
+    margin-top: 5px;
+}
+.ebeauty-grid-product-image-one{
+    height: 500px;
+    width: 250px;
+    padding: 0%;
+    margin: 0%;
+}
+.rate{
+    display: block;
+    padding: 0%;
+    margin: 0%;
+    float:none
+}
+}
