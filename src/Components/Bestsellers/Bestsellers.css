@@ -100,4 +100,15 @@
         padding: 20px;
         width: auto;
     }
+    .bestseller-product-card-one-for-image-product-one {
+      height: 200px;
+      width: 300px;
+      padding-left: 80px;
+    }
+
+    .bestseller-product-card-two-for-image-product-two{
+      height: 200px;
+      width: 300px;
+      padding-left: 80px;
+    }
 }
