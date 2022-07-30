@@ -1,0 +1,116 @@
+.new-arrival-main-container {
+    display: block;
+    text-align: center;
+    margin: 20px;
+  }
+  .new-arrival-main-container-of-products {
+    display: flex;
+    margin-top: 20px;
+  }
+  .new-arrival-tag-line {
+    font-size: 40px;
+  }
+  
+  .new-arrival-tag-line-para {
+    color: dimgray;
+  }
+
+  .new-arrival-card-one{
+    width: 20%;
+  }
+  
+  .new-arrival-product-card-one {
+    display: block;
+    width: 20%;
+    /* background-color: rgb(207, 250, 209); */
+    /* padding-left: 45px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .new-arrival-product-card-one-for-image {
+    display: flex;
+  }
+  .new-arrival-product-card-one-for-details {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  
+  .new-arrival-product-card-one-for-image-product-one {
+    height: 400px;
+    width: 300px;
+  }
+  
+  .new-arrival-product-card-one-for-details-button {
+    color: white;
+    background-color: orangered;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    margin-left: 80px;
+  }
+  
+
+
+  .new-arrival-product-desc-date{
+    color: darkgray;
+    text-align: start;
+  }
+  .new-arrival-product-desc-details {
+    color:black;
+    text-align: start;
+  }
+
+  .new-arrival-learn-more-button{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border: none;
+    margin-top: 30px;
+    margin-right: 166px;
+
+  }
+  
+  
+  
+  @media (max-width: 768px){
+    .new-arrival-main-container{
+        margin: 10px;
+    }
+
+      .new-arrival-main-container-of-products{
+          display: block;
+          /* margin: 10px; */
+      }
+  
+      .new-arrival-product-card-one{
+          /* padding: 20px; */
+          width: auto;
+      }
+
+      .new-arrival-product-card-one-for-image-product-one {
+        height: 300px;
+        width: 280px;
+        /* padding-left: 80px; */
+      }
+
+      .new-arrival-learn-more-button{
+        margin-top: 2px;
+        margin-left: -42px;
+
+
+      }
+
+      .new-arrival-tag-line{
+        font-size: 25px;
+      }
+
+      .new-arrival-tag-line-para{
+        font-size: 10px;
+      }
+
+      .new-arrival-product-desc-date{
+        margin-top: -17px;
+      }
+  }

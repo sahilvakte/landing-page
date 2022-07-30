@@ -5,6 +5,7 @@ import Homescreen from './Containers/Homescreen/Homescreen';
 import Discover from './Components/Discover/Discover';
 import Bestsellers from './Components/Bestsellers/Bestsellers';
 import ProdDescription from './Components/ProdDescription/ProdDescription';
+import Arrival from './Components/Arrival/Arrival';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Discover/>
     <Bestsellers/>
     <ProdDescription/>
+    <Arrival/>
     </div>
   );
 }
