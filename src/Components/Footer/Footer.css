@@ -1,0 +1,70 @@
+.ebeauty-footer{
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.ebeauty-social-sites-symbol{
+    display: flex;
+    padding-top: 10px;
+    column-gap: 8px;
+}
+
+.twitter-svg-symbol{
+    height: 25px;
+    width: 25px;
+}
+
+.footer-main-components{
+    font-size: 25px;
+    margin-bottom: 10px;
+    /* display: block; */
+}
+
+
+.footer-components{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    /* padding-top: 10px; */
+    /* margin-top: 10px; */
+}
+
+@media (max-width: 768px){
+    .ebeauty-footer{
+        display: flex;
+        justify-content: center;
+        column-gap: 12px;
+        /* background-color: black; */
+        /* color: white; */
+        /* margin-top: 10px; */
+        /* padding-top: 10px; */
+        /* padding-bottom: 10px; */
+    }
+
+    .ebeauty-social-sites-symbol{
+        display: flex;
+        /* padding-top: 10px; */
+        column-gap: 1px;
+    }
+
+    .twitter-svg-symbol{
+        height: 8px;
+        width: 8px;
+    }
+
+    .footer-main-components{
+        font-size: 10px;
+        /* margin-bottom: 5px; */
+    }
+
+    .footer-components{
+        font-size: 6px;
+    }
+}
