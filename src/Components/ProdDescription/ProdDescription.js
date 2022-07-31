@@ -23,7 +23,7 @@ const ProdDescription = () => {
             The line of Women's sprays Cosmetics in 2019 was
             <br /> replenished with a new masterpiece - a body spray
             <br />
-            based on natural oils.in it the floral sound is diluted with berry
+            based on natural oils.in it the floral sound is diluted with <br/>berry
             chords and complemented with woody shades.
           </p>
           <div className="prod-description-grid-item-button">
