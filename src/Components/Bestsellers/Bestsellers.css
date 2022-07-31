@@ -6,6 +6,7 @@
 .bestsellers-main-container-of-products {
   display: flex;
   margin-top: 20px;
+  column-gap: 10px;
 }
 .bestsellers-tag-line {
   font-size: 40px;
@@ -15,20 +16,27 @@
   color: dimgray;
 }
 
+.bestseller-product-card-blank{
+  width: 20%;
+}
+
 .bestseller-product-card-one {
   display: block;
-  width: 25%;
+  width: 20%;
   background-color: rgb(207, 250, 209);
-  padding-left: 45px;
+  /* padding-left: 45px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 15px; */
+  justify-content: center;
 }
 .bestseller-product-card-one-for-image {
   display: flex;
+  justify-content: center;
 }
 .bestseller-product-card-one-for-details {
   display: flex;
   margin-top: 20px;
+  justify-content: center;
 }
 
 .bestseller-product-card-one-for-image-product-one-like {
@@ -53,14 +61,16 @@
 
 .bestseller-product-card-two {
   display: block;
-  width: 25%;
+  width: 20%;
   background-color: white;
-  padding-left: 45px;
+  /* padding-left: 45px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 15px; */
+  justify-content: center;
 }
 .bestseller-product-card-two-for-image {
   display: flex;
+  justify-content: center;
 }
 .bestseller-product-price-details {
   color: orangered;
