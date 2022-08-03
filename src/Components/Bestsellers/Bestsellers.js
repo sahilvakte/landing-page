@@ -12,6 +12,7 @@ const Bestsellers = () => {
         </p>
       </div>
       <div className="bestsellers-main-container-of-products">
+      <div className="bestseller-product-card-blank"></div>
         <div className="bestseller-product-card-one">
           <div className="bestseller-product-card-one-for-image">
           <img className="bestseller-product-card-one-for-image-product-one-like" src="https://svgsilh.com/svg/2055208-ff5722.svg"/>
@@ -67,6 +68,7 @@ const Bestsellers = () => {
             <button className="bestseller-product-card-two-for-details-button">Buy Now</button>
           </div>
         </div>
+        <div className="bestseller-product-card-blank"></div>
       </div>
     </div>
   );

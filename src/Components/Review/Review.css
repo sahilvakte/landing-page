@@ -1,0 +1,155 @@
+.review-container-grid{
+    width: 100%;
+    background-color: rgb(252, 236, 254);
+}
+
+.containers-for-review-section{
+    display: flex;
+    column-gap: 15px;
+    /* margin: 10px; */
+    padding: 15px;
+}
+
+.review-section-container-one{
+    width: 20%;
+}
+.review-section-container-two{
+    width: 20%;
+}
+.review-section-container-three{
+    width: 20%;
+    background-color: white;
+    border-radius: 25px;
+    
+}
+.review-section-container-four{
+    width: 20%;
+    background-color: white;
+    border-radius: 25px;
+}
+.review-section-container-five{
+    width: 20%;
+}
+
+.review-rate-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.review-rate {
+    float: left;
+    /* padding-left: 170px; */
+    /* justify-content: center; */
+    padding-top: 15px;
+    /* height: 46px; */
+    /* padding: 0 10px; */
+    /* padding-top: 50px; */
+}
+.review-rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.review-rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:black;
+}
+.review-rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.review-rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.review-rate:not(:checked) > label:hover,
+.review-rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.review-rate > input:checked + label:hover,
+.review-rate > input:checked + label:hover ~ label,
+.review-rate > input:checked ~ label:hover,
+.review-rate > input:checked ~ label:hover ~ label,
+.review-rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.review-para-section{
+    color: gray;
+    font-size: 20px;
+    margin: 10px;
+    /* margin-top: -35px; */
+    text-align: center;
+}
+
+.user-in-review-image{
+    height: 45px;
+    width: 45px;
+}
+
+.review-user-information{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-details-in-review{
+    display: block;
+}
+.user-details-in-review p{
+    color: gray;
+    /* margin-top: -17px; */
+}
+
+.review-section-container-two h3{
+    font-size: 45px;
+}
+
+.review-section-container-two p{
+    font-size: 20px;
+    color: gray;
+    /* margin-top: -50px; */
+}
+
+@media (min-width:320px) and (max-width: 420px){
+
+    .review-section-container-two h3{
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .review-section-container-two p{
+        font-size: 20px;
+        text-align: center;
+        color: gray;
+        /* margin-top: -50px; */
+    }
+
+
+    .containers-for-review-section{
+        display: block;
+    }
+
+    .review-section-container-two{
+        width: 100%;
+        display: contents;
+        /* padding-bottom: 5px; */
+    }
+
+    .review-section-container-three{
+        width: 100%;
+        /* padding: 10px; */
+    }
+
+    .review-section-container-four{
+        width: 100%;
+        /* padding: 10px; */
+    }
+
+    .review-user-information{
+        padding-bottom: 20px;
+    }
+}
