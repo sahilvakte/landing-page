@@ -75,12 +75,13 @@
     margin-top: 18px;
     /* margin-right: 203px; */
     justify-content: center;
+    cursor: pointer;
 
   }
   
   
   
-  @media (max-width: 768px){
+  @media (min-width:320px) and (max-width: 425px){
     .new-arrival-main-container{
         margin: 10px;
     }
@@ -97,7 +98,8 @@
 
       .new-arrival-product-card-one-for-image-product-one {
         height: 300px;
-        width: 280px;
+        /* width: 280px; */
+        width: 100%;
         /* padding-left: 80px; */
       }
 
@@ -109,14 +111,14 @@
       }
 
       .new-arrival-tag-line{
-        font-size: 25px;
+        font-size: 35px;
       }
 
       .new-arrival-tag-line-para{
-        font-size: 10px;
+        font-size: 15px;
       }
 
       .new-arrival-product-desc-date{
-        margin-top: -17px;
+        margin-top: -10px;
       }
   }

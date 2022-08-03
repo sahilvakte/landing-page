@@ -74,7 +74,11 @@ input[type="checkbox"] {
 }
 
 /* APPLYING MEDIA QUERIES */
-@media (max-width: 768px) {
+@media (min-width:320px) and (max-width: 425px) {
+
+  .ebeauty-navbar{
+justify-content: space-between;
+margin: 8px;  }
   .ebeauty-nav-menu {
     display: none;
     position: absolute;

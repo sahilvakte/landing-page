@@ -7,6 +7,7 @@ import Bestsellers from './Components/Bestsellers/Bestsellers';
 import ProdDescription from './Components/ProdDescription/ProdDescription';
 import Arrival from './Components/Arrival/Arrival';
 import Footer from './Components/Footer/Footer';
+import Review from './Components/Review/Review';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Bestsellers/>
     <ProdDescription/>
     <Arrival/>
+    <Review/>
     <Footer/>
     </div>
   );

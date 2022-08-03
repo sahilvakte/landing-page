@@ -57,6 +57,7 @@
   width: 100px;
   height: 35px;
   margin-left: 80px;
+  cursor: pointer;
 }
 
 .bestseller-product-card-two {
@@ -94,10 +95,11 @@
   width: 100px;
   height: 35px;
   margin-left: 80px;
+  cursor: pointer;
 }
 
 
-@media (max-width: 768px){
+@media (min-width:320px) and (max-width: 420px){
     .bestsellers-main-container-of-products{
         display: block;
     }
@@ -105,10 +107,12 @@
     .bestseller-product-card-one{
         padding: 20px;
         width: auto;
+        justify-content: space-between;
     }
     .bestseller-product-card-two{
         padding: 20px;
         width: auto;
+        justify-content: space-between;
     }
     .bestseller-product-card-one-for-image-product-one {
       height: 200px;

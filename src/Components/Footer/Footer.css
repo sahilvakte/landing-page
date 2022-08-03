@@ -7,13 +7,14 @@
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .ebeauty-social-sites-symbol{
     display: flex;
-    padding-top: 10px;
-    column-gap: 8px;
+    justify-content: space-evenly;
+    /* padding-top: 10px; */
+    /* column-gap: 8px; */
 }
 
 .twitter-svg-symbol{
@@ -24,23 +25,29 @@
 .footer-main-components{
     font-size: 25px;
     margin-bottom: 10px;
+    text-align: center;
     /* display: block; */
 }
 
+.footer-components-content-in-detail{
+    text-align: center;
+}
 
 .footer-components{
     font-size: 15px;
     text-decoration: none;
     color: white;
+    /* text-align: center; */
     /* padding-top: 10px; */
     /* margin-top: 10px; */
 }
 
-@media (max-width: 768px){
+@media (min-width:320px) and (max-width: 420px){
     .ebeauty-footer{
-        display: flex;
+        display: block;
         justify-content: center;
-        column-gap: 12px;
+        padding-bottom: 20px;
+        /* column-gap: 12px; */
         /* background-color: black; */
         /* color: white; */
         /* margin-top: 10px; */
@@ -50,21 +57,34 @@
 
     .ebeauty-social-sites-symbol{
         display: flex;
-        /* padding-top: 10px; */
-        column-gap: 1px;
+        
+        /* column-gap: 1px; */
     }
 
     .twitter-svg-symbol{
-        height: 8px;
-        width: 8px;
+        height: 15px;
+        width: 15px;
+        margin-top: -5px;
     }
 
     .footer-main-components{
-        font-size: 10px;
+        font-size: 20px;
+        margin-top: 15px;
+        /* border-top: 1px solid white; */
+        /* width: 50%; */
+        /* border-top: 2px solid white; */
         /* margin-bottom: 5px; */
     }
 
     .footer-components{
-        font-size: 6px;
+        font-size: 12px;
+        /* margin-top: 5px; */
+
+    }
+
+    .footer-components-content-in-detail{
+        text-align: center;
+        margin-top: -15px;
+        /* margin-bottom: 5px; */
     }
 }
