@@ -1,6 +1,9 @@
 import React from "react";
 import "../Bestsellers/Bestsellers.css";
 
+import Like from "../../Assets/SVG/like.svg"
+import Cardpic from "../../Assets/SVG/cardpic.svg"
+
 const Bestsellers = () => {
   return (
     <div className="bestsellers-main-container">
@@ -19,8 +22,8 @@ const Bestsellers = () => {
       {/* Card 1 */}
         <div className="bestseller-product-card-one">
           <div className="bestseller-product-card-one-for-image">
-          <img className="bestseller-product-card-one-for-image-product-one-like" src="https://svgsilh.com/svg/2055208-ff5722.svg"/>
-            <img className="bestseller-product-card-one-for-image-product-one" src="https://svgsilh.com/svg/1299422-f9b8ce.svg"/>
+          <img className="bestseller-product-card-one-for-image-product-one-like" alt="like" src={Like}/>
+            <img className="bestseller-product-card-one-for-image-product-one" alt="prod" src={Cardpic}/>
           </div>
           <div className="bestseller-product-card-one-for-details">
             <div>
@@ -34,8 +37,8 @@ const Bestsellers = () => {
         {/* Card 2 */}
         <div className="bestseller-product-card-two">
           <div className="bestseller-product-card-two-for-image">
-          <img className="bestseller-product-card-two-for-image-product-two-like" src="https://svgsilh.com/svg/2055208-ff5722.svg"/>
-            <img className="bestseller-product-card-two-for-image-product-two" src="https://svgsilh.com/svg/1299422-f9b8ce.svg"/>
+          <img className="bestseller-product-card-two-for-image-product-two-like" alt="like" src={Like}/>
+            <img className="bestseller-product-card-two-for-image-product-two" alt="product" src={Cardpic}/>
           </div>
           <div className="bestseller-product-card-one-for-details">
             <div>
@@ -49,8 +52,8 @@ const Bestsellers = () => {
         {/* Card 3 */}
         <div className="bestseller-product-card-one">
           <div className="bestseller-product-card-one-for-image">
-          <img className="bestseller-product-card-one-for-image-product-one-like" src="https://svgsilh.com/svg/2055208-ff5722.svg"/>
-            <img className="bestseller-product-card-one-for-image-product-one" src="https://svgsilh.com/svg/1299422-f9b8ce.svg"/>
+          <img className="bestseller-product-card-one-for-image-product-one-like" alt="like" src={Like}/>
+            <img className="bestseller-product-card-one-for-image-product-one" alt="product" src={Cardpic}/>
           </div>
           <div className="bestseller-product-card-one-for-details">
             <div>
@@ -65,8 +68,8 @@ const Bestsellers = () => {
         {/* Card 4 */}
         <div className="bestseller-product-card-two">
           <div className="bestseller-product-card-two-for-image">
-          <img className="bestseller-product-card-two-for-image-product-two-like" src="https://svgsilh.com/svg/2055208-ff5722.svg"/>
-            <img className="bestseller-product-card-two-for-image-product-two" src="https://svgsilh.com/svg/1299422-f9b8ce.svg"/>
+          <img className="bestseller-product-card-two-for-image-product-two-like" alt="like" src={Like}/>
+            <img className="bestseller-product-card-two-for-image-product-two" alt="product" src={Cardpic}/>
           </div>
           <div className="bestseller-product-card-one-for-details">
             <div>

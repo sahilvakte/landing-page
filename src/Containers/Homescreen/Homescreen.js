@@ -1,6 +1,9 @@
 import React from "react";
 import "../Homescreen/Homescreen.css";
 
+import Homepic from "../../Assets/SVG/homescreen-pic.svg";
+import Naturaloil from "../../Assets/SVG/natural-oil.svg"
+
 const Homescreen = () => {
   return (
     <div>
@@ -22,12 +25,12 @@ const Homescreen = () => {
           <div className="product-add-at-homepage">
             <div className="product-add-at-homepage-one">
                 <div><b>Natural Oil</b><br/><p className="product-add-at-homepage-price">$150</p></div>
-                <div><img className="product-add-at-homepage-image" src="https://svgsilh.com/svg/23672.svg"/></div>
+                <div><img className="product-add-at-homepage-image" src={Naturaloil}/></div>
             </div>
             
             <div className="product-add-at-homepage-two">
                 <div><b>Natural Oil</b><br/><p className="product-add-at-homepage-price">$150</p></div>
-                <div><img className="product-add-at-homepage-image" src="https://svgsilh.com/svg/23672.svg"/></div>
+                <div><img className="product-add-at-homepage-image" src={Naturaloil}/></div>
             </div>
         
           </div>
@@ -38,7 +41,8 @@ const Homescreen = () => {
           <div className="ebeauty-grid-product-bg">
             <img
               className="ebeauty-grid-product-image-one"
-              src="https://svgsilh.com/svg/1073869-e91e63.svg"
+              src={Homepic}
+              // src="https://svgsilh.com/svg/1073869-e91e63.svg"
             />
           </div>
           <div>

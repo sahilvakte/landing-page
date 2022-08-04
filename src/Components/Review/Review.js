@@ -1,6 +1,8 @@
 import React from "react";
 import "../Review/Review.css";
 
+import User from "../../Assets/SVG/user.svg"
+
 const Review = () => {
   return (
     <div className="review-container-grid">
@@ -62,7 +64,8 @@ const Review = () => {
             <div>
               <img
                 className="user-in-review-image"
-                src="https://svgsilh.com/svg/1633250.svg"
+                alt="user"
+                src={User}
               />
             </div>
             <div className="user-details-in-review">
@@ -118,7 +121,8 @@ const Review = () => {
             <div>
               <img
                 className="user-in-review-image"
-                src="https://svgsilh.com/svg/1633250.svg"
+                alt="user"
+                src={User}
               />
             </div>
             <div className="user-details-in-review">

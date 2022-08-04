@@ -1,6 +1,8 @@
 import React from "react";
 import "../ProdDescription/ProdDescription.css";
 
+import Bodyspray from "../../Assets/SVG/bodyspray.svg"
+
 const ProdDescription = () => {
   return (
     <div>
@@ -11,7 +13,7 @@ const ProdDescription = () => {
           <div className="prod-description-grid-product-bg">
             <img
               className="prod-description-product-image-one"
-              src="https://svgsilh.com/svg/2026810-e91e63.svg"
+              src={Bodyspray}
             />
           </div>
         </div>
