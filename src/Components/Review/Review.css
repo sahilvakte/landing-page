@@ -122,7 +122,7 @@
     }
     
     .review-section-container-two p{
-        font-size: 20px;
+        font-size: 17px;
         text-align: center;
         color: gray;
         /* margin-top: -50px; */
@@ -151,5 +151,9 @@
 
     .review-user-information{
         padding-bottom: 20px;
+    }
+
+    .review-para-section{
+        font-size: 17px;
     }
 }

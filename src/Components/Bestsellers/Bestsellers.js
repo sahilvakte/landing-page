@@ -5,6 +5,8 @@ import Like from "../../Assets/SVG/like.svg"
 import Cardpic from "../../Assets/SVG/cardpic.svg"
 
 const Bestsellers = () => {
+
+
   return (
     <div className="bestsellers-main-container">
     {/* Center Tag Data */}

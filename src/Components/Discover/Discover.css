@@ -58,9 +58,10 @@
 @media (min-width:320px) and (max-width: 420px){
 .discover-black-container{
     display: flex;
-    margin-top: 10px;
+    align-items: center;
+    /* margin-top: 10px;
     height: 62px;
-    padding-top: 6px;
+    padding-top: 6px; */
 }
 .discover-first-images{
     width: 33.33%;

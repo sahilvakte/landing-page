@@ -1,11 +1,20 @@
 import React from "react";
 import "../Homescreen/Homescreen.css";
 
+
 import Homepic from "../../Assets/SVG/homescreen-pic.svg";
 import Naturaloil from "../../Assets/SVG/natural-oil.svg"
+import Enavbar from "../../Components/Enavbar/Enavbar";
+import Discover from "../../Components/Discover/Discover";
+import Bestsellers from "../../Components/Bestsellers/Bestsellers";
+import ProdDescription from "../../Components/ProdDescription/ProdDescription";
+import Arrival from "../../Components/Arrival/Arrival";
+import Review from "../../Components/Review/Review";
+import Footer from "../../Components/Footer/Footer";
 
 const Homescreen = () => {
   return (
+    <>    <Enavbar/>
     <div>
       <div className="ebeauty-grid-container">
         <div className="ebeauty-grid-item">
@@ -76,6 +85,15 @@ const Homescreen = () => {
         </div>
       </div>
     </div>
+
+    <Discover/>
+    <Bestsellers/>
+    <ProdDescription/>
+    <Arrival/>
+    <Review/>
+    <Footer/>
+    </>
+
   );
 };
 
