@@ -4,6 +4,7 @@ import "../Bestsellers/Bestsellers.css";
 const Bestsellers = () => {
   return (
     <div className="bestsellers-main-container">
+    {/* Center Tag Data */}
       <div className="bestsellers-text-data">
         <h3 className="bestsellers-tag-line">Best Sellers</h3>
         <p className="bestsellers-tag-line-para">
@@ -11,8 +12,11 @@ const Bestsellers = () => {
           <br /> new masterpiece
         </p>
       </div>
+      {/* Product Cards */}
       <div className="bestsellers-main-container-of-products">
       <div className="bestseller-product-card-blank"></div>
+
+      {/* Card 1 */}
         <div className="bestseller-product-card-one">
           <div className="bestseller-product-card-one-for-image">
           <img className="bestseller-product-card-one-for-image-product-one-like" src="https://svgsilh.com/svg/2055208-ff5722.svg"/>
@@ -27,6 +31,7 @@ const Bestsellers = () => {
           </div>
         </div>
 
+        {/* Card 2 */}
         <div className="bestseller-product-card-two">
           <div className="bestseller-product-card-two-for-image">
           <img className="bestseller-product-card-two-for-image-product-two-like" src="https://svgsilh.com/svg/2055208-ff5722.svg"/>
@@ -41,6 +46,7 @@ const Bestsellers = () => {
           </div>
         </div>
 
+        {/* Card 3 */}
         <div className="bestseller-product-card-one">
           <div className="bestseller-product-card-one-for-image">
           <img className="bestseller-product-card-one-for-image-product-one-like" src="https://svgsilh.com/svg/2055208-ff5722.svg"/>
@@ -55,6 +61,8 @@ const Bestsellers = () => {
           </div>
         </div>
 
+
+        {/* Card 4 */}
         <div className="bestseller-product-card-two">
           <div className="bestseller-product-card-two-for-image">
           <img className="bestseller-product-card-two-for-image-product-two-like" src="https://svgsilh.com/svg/2055208-ff5722.svg"/>

@@ -5,6 +5,8 @@ const ProdDescription = () => {
   return (
     <div>
       <div className="prod-description-grid-container">
+
+      {/* Image Container */}
         <div className="prod-description-grid-product">
           <div className="prod-description-grid-product-bg">
             <img
@@ -14,6 +16,8 @@ const ProdDescription = () => {
           </div>
         </div>
 
+
+        {/* Details Container */}
         <div className="prod-description-grid-item">
           <h2 className="tagline-of-prod-description">
             Body Spray With

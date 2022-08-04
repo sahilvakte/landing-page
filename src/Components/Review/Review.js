@@ -7,6 +7,7 @@ const Review = () => {
       <div className="containers-for-review-section">
         <div className="review-section-container-one"></div>
 
+      {/* Review Details Container */}
         <div className="review-section-container-two">
           <h3>Review</h3>
           <p>
@@ -15,7 +16,10 @@ const Review = () => {
           </p>
         </div>
 
+        {/* Review Card 1 */}
         <div className="review-section-container-three">
+
+        {/* Review Rating */}
           <div className="review-rate-section">
             <div>
               {/* <h1>"</h1> */}
@@ -44,12 +48,16 @@ const Review = () => {
             </div>
           </div>
           <div>
+
+          {/* Review text */}
             <p className="review-para-section">
               The line of Women's sprays Cosmetics in 2019 was replenished with
               a new masterpiece - a body spray based on natural oils. In it the
               floral sound is diluted.
             </p>
           </div>
+
+          {/* User */}
           <div className="review-user-information">
             <div>
               <img
@@ -64,7 +72,10 @@ const Review = () => {
           </div>
         </div>
 
+
+      {/* Review Card 2 */}
         <div className="review-section-container-four">
+        {/* Review Rating */}
           <div className="review-rate-section">
             <div>
               {/* <h1>"</h1> */}
@@ -92,6 +103,8 @@ const Review = () => {
               </label>
             </div>
           </div>
+
+          {/* Review */}
           <div>
             <p className="review-para-section">
               The line of Women's sprays Cosmetics in 2019 was replenished with
@@ -99,6 +112,8 @@ const Review = () => {
               floral sound is diluted.
             </p>
           </div>
+
+          {/* Review User */}
           <div className="review-user-information">
             <div>
               <img

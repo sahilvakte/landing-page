@@ -6,15 +6,19 @@ const Homescreen = () => {
     <div>
       <div className="ebeauty-grid-container">
         <div className="ebeauty-grid-item">
+        {/* Text Container */}
           <h2 className="tagline-of-ebeauty">
             Reveal Your
             <br /> Natural Beauty
             <br /> Scene
           </h2>
+          {/* Buttons */}
           <div className="ebeauty-grid-item-button">
             <button className="get-started-button">GET STARTED</button>
             <button className="learn-more-button">LEARN MORE</button>
           </div>
+
+          {/* Product Card */}
           <div className="product-add-at-homepage">
             <div className="product-add-at-homepage-one">
                 <div><b>Natural Oil</b><br/><p className="product-add-at-homepage-price">$150</p></div>
@@ -28,6 +32,8 @@ const Homescreen = () => {
         
           </div>
         </div>
+
+        {/* Side Image */}
         <div className="ebeauty-grid-product">
           <div className="ebeauty-grid-product-bg">
             <img
@@ -36,6 +42,8 @@ const Homescreen = () => {
             />
           </div>
           <div>
+
+          {/* Star Rating  */}
             <div class="rate">
               <input type="radio" id="star5" name="rate" value="5" />
               <label for="star5" title="text">
