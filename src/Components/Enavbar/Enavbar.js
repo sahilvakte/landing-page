@@ -1,6 +1,10 @@
 import React from "react";
 import "../Enavbar/Enavbar.css";
 
+import Strike from "../../Assets/SVG/strike.svg"
+import Cart from "../../Assets/SVG/cart.svg"
+import User from "../../Assets/SVG/user.svg"
+
 const Enavbar = () => {
   return (
     <div>
@@ -44,19 +48,22 @@ const Enavbar = () => {
             </div>
             <a href="/">
               <img
-                src="https://svgsilh.com/svg/305555.svg"
+                // src="https://svgsilh.com/svg/305555.svg"
+                src={Strike}
                 className="strike-symbol"
               />
             </a>
             <a href="/">
               <img
-                src="https://www.svgrepo.com/show/80543/shopping-cart-outline.svg"
+                // src="https://www.svgrepo.com/show/80543/shopping-cart-outline.svg"
+                src={Cart}
                 className="ebeauty-cart-symbol"
               />
             </a>
             <a href="/">
               <img
-                src="http://simpleicon.com/wp-content/uploads/user1.svg"
+                // src="http://simpleicon.com/wp-content/uploads/user1.svg"
+                src={User}
                 className="user-symbol"
               />
             </a>

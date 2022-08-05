@@ -1,6 +1,11 @@
 import React from 'react'
 import "../Footer/Footer.css"
 
+import Twitter from "../../Assets/SVG/twitter.svg"
+import Facebook from "../../Assets/SVG/facebook.svg"
+import Instagram from "../../Assets/SVG/instagram.svg"
+
+
 const Footer = () => {
   return (
     <div className='ebeauty-footer'>
@@ -9,9 +14,9 @@ const Footer = () => {
         {/* Social Media */}
             <h5 className='footer-main-components'>eBeauty</h5>
             <div className='ebeauty-social-sites-symbol'>
-            <img src='https://svgsilh.com/svg/2029115-ffffff.svg' className='twitter-svg-symbol'/>
-            <img src='https://svgsilh.com/svg/2029110-ffffff.svg' className='twitter-svg-symbol'/>
-            <img src='https://svgsilh.com/svg/2029113-ffffff.svg' className='twitter-svg-symbol'/>
+            <img src={Twitter} className='twitter-svg-symbol'/>
+            <img src={Facebook} className='twitter-svg-symbol'/>
+            <img src={Instagram} className='twitter-svg-symbol'/>
             </div>
         </div>
 

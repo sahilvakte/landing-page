@@ -1,6 +1,10 @@
 import React from 'react'
 import "../Arrival/Arrival.css"
 
+import Cofeeplate from "../../Assets/Images/cofeeplate.jpg"
+import Interior from "../../Assets/Images/interior.jpg"
+import Home from "../../Assets/Images/homearrival.jpg"
+
 const Arrival = () => {
   return (
     <div className="new-arrival-main-container">
@@ -22,7 +26,10 @@ const Arrival = () => {
         {/* Card 1 */}
         <div className="new-arrival-product-card-one">
           <div className="new-arrival-product-card-one-for-image">
-            <img className="new-arrival-product-card-one-for-image-product-one" src="https://pbs.twimg.com/media/DZmPFqhUMAA12HJ.jpg"/>
+            <img className="new-arrival-product-card-one-for-image-product-one" 
+            // src="https://pbs.twimg.com/media/DZmPFqhUMAA12HJ.jpg"
+            src={Cofeeplate}
+            />
           </div>
           <div className="new-arrival-product-card-one-for-details">
             <div>
@@ -36,7 +43,10 @@ const Arrival = () => {
         {/* Card 2 */}
         <div className="new-arrival-product-card-one">
           <div className="new-arrival-product-card-one-for-image">
-            <img className="new-arrival-product-card-one-for-image-product-one" src="https://www.decorilla.com/online-decorating/wp-content/uploads/2019/06/online-interior-design-services-in-2019.jpg"/>
+            <img className="new-arrival-product-card-one-for-image-product-one" 
+            // src="https://www.decorilla.com/online-decorating/wp-content/uploads/2019/06/online-interior-design-services-in-2019.jpg"
+              src={Interior}
+            />
           </div>
           <div className="new-arrival-product-card-one-for-details">
             <div>
@@ -50,7 +60,10 @@ const Arrival = () => {
         {/* Card 3 */}
         <div className="new-arrival-product-card-one">
           <div className="new-arrival-product-card-one-for-image">
-            <img className="new-arrival-product-card-one-for-image-product-one" src="https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=425,format=auto/sites/default/files/styles/768x768/public/d8/images/methode/2020/12/12/423d6c80-3607-11eb-8d89-a7d6b31c4b8a_image_hires_133541.jpg?itok=kpFt-kOh&v=1607751352"/>
+            <img className="new-arrival-product-card-one-for-image-product-one" 
+            // src="https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=425,format=auto/sites/default/files/styles/768x768/public/d8/images/methode/2020/12/12/423d6c80-3607-11eb-8d89-a7d6b31c4b8a_image_hires_133541.jpg?itok=kpFt-kOh&v=1607751352"
+              src={Home}
+            />
           </div>
           <div className="new-arrival-product-card-one-for-details">
             <div>
