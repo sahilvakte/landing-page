@@ -4,36 +4,41 @@ import "../Contact/Contact.css";
 import homelogo from "../../Assets/SVG/home.svg";
 import phonelogo from "../../Assets/SVG/phonelogo.svg";
 import maillogo from "../../Assets/SVG/maillogo.svg";
+import Enavbar from "../Enavbar/Enavbar";
+import Footer from "../Footer/Footer";
 
 const Contact = () => {
   return (
+    <>
+    <Enavbar/>
     <div className="ebeauty-contact-container">
       <div className="ebeauty-send-us-msg-container">
-        <h4>Send us a message</h4>
+        <h4>Send us message</h4>
         <div className="send-us-form-one">
           <div className="send-us-form-name">
             <p>NAME</p>
-            <input type="text" placeholder="Enter name" />
+            <input type="text" placeholder="Enter name" /><hr/>
           </div>
           <div className="send-us-form-email">
             <p>EMAIL</p>
-            <input type="text" placeholder="Enter email" />
+            <input type="text" placeholder="Enter email" /><hr/>
           </div>
         </div>
         <div className="send-us-form-two">
           <div className="send-us-form-phone">
             <p>PHONE</p>
-            <input type="text" placeholder="Enter phone number " />
+            <input type="text" placeholder="Enter phone number " /><hr/>
           </div>
           <div className="send-us-form-subject">
             <p>SUBJECT</p>
-            <input type="text" placeholder="Enter subject" />
+            <input type="text" placeholder="Enter subject" /><hr/>
           </div>
         </div>
         <div className="send-us-form-three">
           <div className="send-us-form-message">
             <p>MESSAGE</p>
             <input type="text" placeholder="Enter your message" />
+            <hr/>
           </div>
         </div>
         <div className="send-us-form-button">
@@ -50,9 +55,11 @@ const Contact = () => {
         <div className="">
           <div className="head-office-css">
             <div>
-              <img src={homelogo} />
+              <img src={homelogo} alt=''/>
             </div>
-            <div>HEAD OFFICE</div>
+            <div>
+              <p>HEAD OFFICE</p>
+            </div>
           </div>
           <p>
             Mountain Trail Foods Pvt Ltd,
@@ -68,7 +75,9 @@ const Contact = () => {
           <div>
             <img src={phonelogo} alt="" />
           </div>
-          <div>CONTACT NUMBER</div>
+          <div>
+            <p>CONTACT NUMBER</p>
+          </div>
         </div>
         <p>
           Stores/ Retail : +91 8880141000
@@ -82,7 +91,9 @@ const Contact = () => {
           <div>
             <img src={maillogo} alt="" />
           </div>
-          <div>EMAIL</div>
+          <div>
+            <p>EMAIL</p>
+          </div>
         </div>
         <p>
           Stores/ Retail : feedback@chaipoint.com
@@ -94,6 +105,8 @@ const Contact = () => {
         </p>
       </div>
     </div>
+    <Footer/>
+    </>
     // </div>
   );
 };
