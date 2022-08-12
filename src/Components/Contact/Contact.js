@@ -10,11 +10,13 @@ import Footer from "../Footer/Footer";
 const Contact = () => {
   return (
     <>
+    {/* Navbar */}
     <Enavbar/>
     <div className="ebeauty-contact-container">
       <div className="ebeauty-send-us-msg-container">
         <h4>Send us message</h4>
         <div className="send-us-form-one">
+              {/* CONTACT Input Fields */}
           <div className="send-us-form-name">
             <p>NAME</p>
             <input type="text" placeholder="Enter name" /><hr/>
@@ -37,8 +39,7 @@ const Contact = () => {
         <div className="send-us-form-three">
           <div className="send-us-form-message">
             <p>MESSAGE</p>
-            <input type="text" placeholder="Enter your message" />
-            <hr/>
+            <input type="textarea" placeholder="Enter your message" /><hr/>
           </div>
         </div>
         <div className="send-us-form-button">
@@ -50,6 +51,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      {/* Contact Details */}
       <div className="ebeauty-contact-us-container">
         <h4>Contact Us</h4>
         <div className="">
