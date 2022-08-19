@@ -2,6 +2,7 @@ import logo from './logo.svg';
 // import './App.css';
 import Homescreen from './Containers/Homescreen/Homescreen';
 import Contact from './Components/Contact/Contact';
+import Products from './Components/Products/Products';
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
     <div className="App">
 
     {/* <Homescreen/> */}
-    <Contact/>
-
+    {/* <Contact/> */}
+    <Products/>
     </div>
   );
 }
