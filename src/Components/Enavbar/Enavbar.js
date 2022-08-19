@@ -4,6 +4,7 @@ import "../Enavbar/Enavbar.css";
 import Strike from "../../Assets/SVG/strike.svg"
 import Cart from "../../Assets/SVG/cart.svg"
 import User from "../../Assets/SVG/user.svg"
+import EbeautyPopularPick from "../EbeautyPopularPick/EbeautyPopularPick";
 
 const Enavbar = () => {
   return (
@@ -31,7 +32,7 @@ const Enavbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href={EbeautyPopularPick}>
                   <h3>PRODUCTS</h3>
                 </a>
               </li>
