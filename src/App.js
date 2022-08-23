@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-// import './App.css';
+import {  Routes, Route } from "react-router-dom";
 import Homescreen from './Containers/Homescreen/Homescreen';
 import Contact from './Components/Contact/Contact';
 import EbeautyPopularPick from './Components/EbeautyPopularPick/EbeautyPopularPick';
@@ -7,12 +6,12 @@ import EbeautyPopularPick from './Components/EbeautyPopularPick/EbeautyPopularPi
 
 function App() {
   return (
-    <div className="App">
-
-    {/* <Homescreen/> */}
-    {/* <Contact/> */}
-    <EbeautyPopularPick/>
-    </div>
+    
+      <Routes>
+        <Route path="/" element={<Homescreen/>} />
+        <Route path="contact" element={<Contact/>}/>
+        <Route path="products" element={<EbeautyPopularPick/>}/>
+      </Routes>
   );
 }
 

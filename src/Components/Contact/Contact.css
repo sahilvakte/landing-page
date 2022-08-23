@@ -107,9 +107,8 @@
 .send-us-form-button {
   display: flex;
   column-gap: 50px;
-  justify-content: end;
+  /* justify-content: end; */
   margin-top: 80px;
-
 }
 
 .send-us-form-button-reset button {

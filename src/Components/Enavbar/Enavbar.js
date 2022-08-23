@@ -4,9 +4,12 @@ import "../Enavbar/Enavbar.css";
 import Strike from "../../Assets/SVG/strike.svg"
 import Cart from "../../Assets/SVG/cart.svg"
 import User from "../../Assets/SVG/user.svg"
-import EbeautyPopularPick from "../EbeautyPopularPick/EbeautyPopularPick";
+import { Link } from 'react-router-dom';
 
 const Enavbar = () => {
+
+  
+
   return (
     <div>
       <nav className="ebeauty-navbar">
@@ -20,7 +23,7 @@ const Enavbar = () => {
         <ul className="nav-links">
           {/* <!-- USING CHECKBOX HACK --> */}
           <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">
+          <label for="checkbox_toggle" className="hamburger">
             &#9776;
           </label>
           {/* <!-- NAVIGATION MENUS --> */}
@@ -32,9 +35,9 @@ const Enavbar = () => {
                 </a>
               </li>
               <li>
-                <a href={EbeautyPopularPick}>
+                <Link to="/products">
                   <h3>PRODUCTS</h3>
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="/">
@@ -42,29 +45,29 @@ const Enavbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/">
+                <Link to="/contact">
                   <h3>CONTACT</h3>
-                </a>
+                </Link>
               </li>
             </div>
             <a href="/">
               <img
                 // src="https://svgsilh.com/svg/305555.svg"
-                src={Strike}
+                src={Strike} alt=""
                 className="strike-symbol"
               />
             </a>
             <a href="/">
               <img
                 // src="https://www.svgrepo.com/show/80543/shopping-cart-outline.svg"
-                src={Cart}
+                src={Cart} alt=""
                 className="ebeauty-cart-symbol"
               />
             </a>
             <a href="/">
               <img
                 // src="http://simpleicon.com/wp-content/uploads/user1.svg"
-                src={User}
+                src={User} alt=""
                 className="user-symbol"
               />
             </a>
