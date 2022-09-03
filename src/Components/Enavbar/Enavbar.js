@@ -1,15 +1,12 @@
 import React from "react";
 import "../Enavbar/Enavbar.css";
 
-import Strike from "../../Assets/SVG/strike.svg"
-import Cart from "../../Assets/SVG/cart.svg"
-import User from "../../Assets/SVG/user.svg"
-import { Link } from 'react-router-dom';
+import Strike from "../../Assets/SVG/strike.svg";
+import Cart from "../../Assets/SVG/cart.svg";
+import User from "../../Assets/SVG/user.svg";
+import { Link } from "react-router-dom";
 
 const Enavbar = () => {
-
-  
-
   return (
     <div>
       <nav className="ebeauty-navbar">
@@ -53,21 +50,24 @@ const Enavbar = () => {
             <a href="/">
               <img
                 // src="https://svgsilh.com/svg/305555.svg"
-                src={Strike} alt=""
+                src={Strike}
+                alt=""
                 className="strike-symbol"
               />
             </a>
             <a href="/">
               <img
                 // src="https://www.svgrepo.com/show/80543/shopping-cart-outline.svg"
-                src={Cart} alt=""
+                src={Cart}
+                alt=""
                 className="ebeauty-cart-symbol"
               />
             </a>
             <a href="/">
               <img
                 // src="http://simpleicon.com/wp-content/uploads/user1.svg"
-                src={User} alt=""
+                src={User}
+                alt=""
                 className="user-symbol"
               />
             </a>

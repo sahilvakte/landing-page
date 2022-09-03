@@ -191,15 +191,21 @@
 @media (min-width: 320px) and (max-width: 425px) {
   .ebeauty-contact-container {
     display: block;
+    margin-top: 10px;
   }
   .ebeauty-send-us-msg-container {
-    margin: 10px;
+    margin: 0px;
+    padding: 15px;
   }
   .send-us-form-one {
     display: block;
   }
 
   .send-us-form-two {
+    display: block;
+  }
+
+  .send-us-form-three{
     display: block;
   }
 
@@ -214,7 +220,7 @@
   }
 
   .ebeauty-contact-us-container {
-    margin: 10px;
+    margin: 15px;
   }
 
   .send-us-form-button {

@@ -1,7 +1,8 @@
 .bestsellers-main-container {
   display: block;
   text-align: center;
-  margin: 20px;
+  /* margin: 20px; */
+  padding: 15px;
 }
 .bestsellers-main-container-of-products {
   display: flex;

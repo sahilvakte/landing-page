@@ -78,7 +78,10 @@ input[type="checkbox"] {
 
   .ebeauty-navbar{
 justify-content: space-between;
-margin: 8px;  }
+/* margin: 8px;  */
+padding: 15px;
+margin: 0px;
+ }
   .ebeauty-nav-menu {
     display: none;
     position: absolute;
