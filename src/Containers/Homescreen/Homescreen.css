@@ -162,12 +162,14 @@
 
 .ebeauty-grid-item-button{
     display: block;
+    margin-bottom: 30px;
+    margin-top: 18px;
 }
 .get-started-button{
     font-size: 15px;
     width: 253px;
     padding: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 .learn-more-button{
     font-size: 15px;
