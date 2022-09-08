@@ -19,19 +19,19 @@ const Homescreen = () => {
       <div className="ebeauty-grid-container">
         <div className="ebeauty-grid-item">
         {/* Text Container */}
-          <h2 className="tagline-of-ebeauty">
+          {/* <h2 className="tagline-of-ebeauty">
             Reveal Your
             <br /> Natural Beauty
             <br /> Scene
-          </h2>
+          </h2> */}
           {/* Buttons */}
-          <div className="ebeauty-grid-item-button">
+          {/* <div className="ebeauty-grid-item-button">
             <button className="get-started-button">GET STARTED</button>
             <button className="learn-more-button">LEARN MORE</button>
-          </div>
+          </div> */}
 
           {/* Product Card */}
-          <div className="product-add-at-homepage">
+          {/* <div className="product-add-at-homepage">
             <div className="product-add-at-homepage-one">
                 <div><b>Natural Oil</b><br/><p className="product-add-at-homepage-price">$150</p></div>
                 <div><img className="product-add-at-homepage-image" src={Naturaloil}/></div>
@@ -42,22 +42,21 @@ const Homescreen = () => {
                 <div><img className="product-add-at-homepage-image" src={Naturaloil}/></div>
             </div>
         
-          </div>
+          </div> */}
         </div>
 
         {/* Side Image */}
         <div className="ebeauty-grid-product">
-          <div className="ebeauty-grid-product-bg">
+          {/* <div className="ebeauty-grid-product-bg">
             <img
               className="ebeauty-grid-product-image-one"
               src={Homepic}
-              // src="https://svgsilh.com/svg/1073869-e91e63.svg"
             />
-          </div>
+          </div> */}
           <div>
 
           {/* Star Rating  */}
-            <div class="rate">
+            {/* <div class="rate">
               <input type="radio" id="star5" name="rate" value="5" />
               <label for="star5" title="text">
                 5 stars
@@ -79,19 +78,19 @@ const Homescreen = () => {
                 1 star
               </label>
               <p className="reviews-tagline">2K+ Reviews</p>
-            </div>
+            </div> */}
           
           </div>
         </div>
       </div>
     </div>
 
-    <Discover/>
+    {/* <Discover/>
     <Bestsellers/>
     <ProdDescription/>
     <Arrival/>
     <Review/>
-    <Footer/>
+    <Footer/> */}
     </>
 
   );

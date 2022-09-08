@@ -6,32 +6,17 @@
   text-decoration: none;
 }
 
-.ebeauty-navbar {
-  display: flex;
-  align-items: center;
-  /* justify-content: space-between; */
-  /* padding: 20px; */
-  justify-content: center;
-  margin-top: 20px;
-  background-color: white;
-  color: black;
-}
 .nav-links a {
   color: black;
 }
 /* LOGO */
-.ebeauty-logo {
-  font-size: 20px;
-  /* margin-top: -10px; */
-  text-decoration: none;
-  color: black;
-}
 
 /* NAVBAR MENU */
 .ebeauty-nav-menu {
   display: flex;
-  gap: 5px;
+  /* gap: 5px; */
   font-size: 18px;
+  column-gap: 310px;
 }
 .ebeauty-nav-menu :hover {
   color: orangered;
@@ -54,34 +39,58 @@ input[type="checkbox"] {
 }
 
 .strike-symbol {
-  height: 30px;
-  width: 50px;
+  height: 25px;
+  width: 30px;
 }
 .ebeauty-cart-symbol {
-  height: 30px;
-  width: 50px;
+  height: 25px;
+  width: 30px;
 }
 .user-symbol {
-  height: 30px;
-  width: 50px;
+  height: 25px;
+  width: 30px;
 }
 
 .nav-part-one {
   display: flex;
-  /* padding-right: 400px; */
-  padding-left: 300px;
-  padding-right: 300px;
+}
+
+.ebeauty-navbar-main-container {
+  display: flex;
+  justify-content: center;
+}
+.ebeauty-navbar-main-container-width {
+  width: 75em;
+  margin-top: 15px;
+}
+.ebeauty-navbar-main-container-sub-div {
+  display: flex;
+  column-gap: 310px;
+  align-items: center;
+}
+.ebeauty-navbar-main-container-sub-div-one {
+  display: flex;
+}
+.ebeauty-logo-tag {
+  font-size: 25px;
+}
+.nav-part-one h3 {
+  font-weight: 500;
+  font-size: 15px;
+}
+.enav-sybols-part-div {
+  column-gap: 30px;
+  display: flex;
 }
 
 /* APPLYING MEDIA QUERIES */
-@media (min-width:320px) and (max-width: 425px) {
-
-  .ebeauty-navbar{
-justify-content: space-between;
-/* margin: 8px;  */
-padding: 15px;
-margin: 0px;
- }
+@media (min-width: 320px) and (max-width: 425px) {
+  .ebeauty-navbar {
+    justify-content: space-between;
+    /* margin: 8px;  */
+    padding: 15px;
+    margin: 0px;
+  }
   .ebeauty-nav-menu {
     display: none;
     position: absolute;
@@ -89,14 +98,11 @@ margin: 0px;
     right: 0;
     left: 0;
     text-align: center;
-    /* padding: 16px 0; */
-    /* justify-content: center; */
   }
   .nav-part-one {
     display: block;
     text-align: center;
     padding: 16px 0;
-    /* justify-content: center; */
   }
   input[type="checkbox"]:checked ~ .ebeauty-nav-menu {
     display: block;
@@ -104,5 +110,16 @@ margin: 0px;
   .hamburger {
     display: block;
     margin-left: 150px;
+  }
+  .ebeauty-navbar-main-container-width {
+    width: 100%;
+    padding: 15px;
+    margin: 0px;
+  }
+  .ebeauty-navbar-main-container-sub-div {
+    column-gap: 25px;
+  }
+  .enav-sybols-part-div {
+    justify-content: center;
   }
 }
