@@ -1,15 +1,30 @@
 .ebeauty-footer{
-    display: flex;
+    display: block;
     justify-content: center;
     column-gap: 200px;
     background-color: black;
     color: white;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     /* margin: 10px; */
 }
+.ebeauty-footer-flex-div{
+    display: flex;
+    justify-content: center;
+}
+.ebeauty-footer-width-div{
+    width: 75em;
+}
+.ebeauty-footer-main-div-part{
+    width: 100%;
+    display: flex;
+    column-gap: 215px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 55px;
 
+}
 .ebeauty-social-sites-symbol{
     display: flex;
     justify-content: space-evenly;
@@ -24,7 +39,7 @@
 
 .footer-main-components{
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
     /* display: block; */
 }
@@ -41,12 +56,18 @@
     /* padding-top: 10px; */
     /* margin-top: 10px; */
 }
+.all-rights-div{
+    text-align: center;
+    padding-top: 30px;
+}
+
 
 @media (min-width:320px) and (max-width: 420px){
     .ebeauty-footer{
         display: block;
         justify-content: center;
         padding-bottom: 20px;
+        padding: 15px;
         /* column-gap: 12px; */
         /* background-color: black; */
         /* color: white; */
@@ -70,11 +91,12 @@
 
     .footer-main-components{
         font-size: 20px;
-        margin-top: 15px;
+        margin-top: 20px;
         /* border-top: 1px solid white; */
         /* width: 50%; */
         /* border-top: 2px solid white; */
-        /* margin-bottom: 5px; */
+        margin-bottom: 15px;
+        text-align: center;
     }
 
     .footer-components{
@@ -87,5 +109,13 @@
         text-align: center;
         margin-top: -15px;
         /* margin-bottom: 5px; */
+    }
+    .ebeauty-footer-main-div-part{
+        display: block;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+    .all-rights-div{
+        padding-bottom: 20px;
     }
 }
